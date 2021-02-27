@@ -1,0 +1,153 @@
+body {
+  background: #2C2F33;
+  margin: 0;
+  color: #8C8C8C;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  background: #23272A;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.content {
+  margin: 8px;
+  /* Center content horizontally */
+  width: calc(100% - 16px);
+  text-align: center;
+  /* Center div vertically */
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.avi {
+  border-radius: 50%;
+  width: 130px;
+  border: 3px solid #fff;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+.icon {
+  color: #B05D5D;
+}
+
+.btn {
+  background: #23272A;
+  padding: 10px;
+  color: #8C8C8C;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.btn:hover {
+  background: #ff5555;
+  color: #fff;
+  transition: .4s;
+}
+
+a {
+  color: #c4c4c4;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  /* Prevents scrollbar from appearing during animation */
+  overflow: hidden;
+}
+
+.modal-content {
+  max-width: 400px;
+  width: calc(100% - 100px);
+  background-color: #2C2F33;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  animation: popup 0.7s;
+}
+
+.howtoplayh1 {
+  color: #fff;
+}
+
+input {
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(1.2);
+  }
+  33% {
+    transform: scale(1);
+  }
+  66% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.modalimg {
+  border-radius: 5px;
+  width: 100px;
+  border: 3px solid #fff;
+}
+
+.swal-icon--success__line--long {
+  right: 4px!important;
+}
+
+.swal-icon--success__line--tip {
+  left: 10px!important;
+}
+
+.swal-text {
+  text-align: center;
+}
+
+p.footer-text {
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: -1;
+}
+
+#play-button {
+  display: inline;
+}
+
+#dynmap {
+  display: inline;
+}
+
+.status {
+  border-radius: 5px;
+}
