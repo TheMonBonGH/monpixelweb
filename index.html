@@ -1,87 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Monpixel Website</title>
+<html lang="en">
 
-    <!-- Import scripts -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monpixel Network</title>
+    <link rel="icon" href="images/favicon.png" type="image/icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/e441a11a61.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+</head>
 
-    <!-- Correct scaling on mobile -->
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-
-    <!-- Icon -->
-    <link rel="icon" href="icon.png" type="image/icon">
-
-    <!-- Import stylesheet -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- discord stuff -->
-    <meta property="og:site_name" content="Monpixel Network">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://monpixel.xyz/logo-large.png">
-    <meta property="og:url" content="https://monpixel.xyz/">
-    <meta property="og:title" content="Monpixel Network" />
-    <meta property="og:description" content="A Minecraft minigames server for Java and Bedrock" />
-    <meta name="theme-color" content="#ff5555">
-  </head>
-
-  <body>
-    <div class="content">
-      <!-- Main content -->
-      <img src="https://i.imgur.com/eo2Yn9o.jpg" alt="Monpixel Logo" class="avi">
-      <br>
-      <h1>Monpixel Network</h1>
-      <a href="https://mcsrvstat.us/server/mc.monpixel.xyz" target="blank">
-        <img class="status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fminecraft-server-status-badge.vercel.app%2Fapi%2Fserver%2Fmc.monpixel.xyz%3Fport%3D1234&style=for-the-badge" title="mc.monpixel.xyz" 
-        style="margin-top: 8px;">
-      </a>
-      <a href="https://discord.monpixel.xyz" target="blank">
-        <img class="status" src="https://img.shields.io/discord/762463702996746280?color=7289DA&label=Discord&style=for-the-badge" title="Discord Server" style="margin-top: 8px;">
-      </a>
-      <br>
-      <br>
-      <p style="margin-top: -4px;">Minecraft minigames server for Java and Bedrock</p>
-      <br>
-      <br>
-      <br>
-      <div class="btn" id="play-button">
-        <i class="fas fa-play"></i>
-        &nbsp;
-        Play Now
-      </div>
+<body>
+    <div class="header" id="header">
+        <h1 align="center">
+            <br>
+            <a href="/" style="text-decoration: none; color: white" ">Monpixel Network</a>
+            <h3 style="text-align: center; ">Minecraft minigames server for java and bedrock.</h3>
+            <br>
+        </h1>
+        <p align="center " style="color: #2c2f33 ">
+            <a href="https://discord.monpixel.xyz ">
+                <img src="https://discordapp.com/api/guilds/762463702996746280/widget.png?style=shield " alt="Discord Server ">
+            </a>
+    
+            <a href="https://mcsrvstat.us/server/mc.monpixel.xyz ">
+                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fminecraft-server-status-badge.vercel.app%2Fapi%2Fserver%2Fmc.monpixel.xyz%3Fport%3D1234 " title="mc.monpixel.xyz " />
+            </a>
+        <p>
     </div>
 
-    <div class="bg-modal">
-      <!-- Modal Section -->
-      <div class="modal-content">
-        <div class="close"><i class="far fa-times-circle"></i></div>
-        <img src="logo.png" alt="Server IP" class="modalimg">
-        <h2 class="howtoplayh1" style="margin-top: 8px; margin-bottom: 8px;">Play Monpixel</h1>
-        We support crossplay thanks to <a href="https://github.com/GeyserMC/Geyser/">Geyser</a>!
-        <br>
-        Java or Bedrock?
+    <hr>
+     
+    <div class="welcome" id="welcome">
+        <h1>Welcome to the Monpixel Network website!</h1>
+        Click <a href="/ " style="text-decoration: none; color: white ">here</a> to get started!
+    </div>
+
+    <p class="footer ">
+        <span>©2021 Monpixel</span>
         <br><br>
-        <div class="btn" onclick="btnJava()">
-          <i class="fas fa-desktop" aria-hidden="true"></i>
-          &nbsp;
-          Java Edition
-        </div>
-        <br>
-        <div class="btn" onClick="btnBedrock()">
-          <i class="fas fa-mobile"></i> / <i class="fas fa-gamepad"></i> / <i class="fas fa-desktop"></i>
-          &nbsp;
-          Bedrock Edition
-        </div>
-      </div>
-    </div>
+        <span>Site by TheMonBon™#4684 and circuit10#0158</span>
+      </p>
+</body>
 
-    <p class="footer-text">
-      <span>©2021 Monpixel</span>
-      <br><br>
-      <span>Site by TheMonBon™#4684 and circuit10#0158</span>
-    </p>
-
-    <script src="script.js"></script>
-  </body>
 </html>
